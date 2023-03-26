@@ -1,0 +1,14 @@
+table {
+    font-size: 2rem;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+
+}
+
+tr, td {
+    height: 3rem;
+    border: 1px solid black;
+    border-radius: 3px;
+    color: rgb(100, 103, 201);
+}

@@ -3,9 +3,11 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import {MatButtonModule} from '@angular/material/button';
 
 
+
 const material = [
   MatSlideToggleModule,
   MatButtonModule,
+  
 ]
 
 @NgModule({

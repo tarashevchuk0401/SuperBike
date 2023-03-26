@@ -1,6 +1,27 @@
 [
-    {"id": 1, "brand": "Ridley", "description": "Road Bike", "price": 1245},
-    {"id": 2, "brand": "Colnsgo", "description": "Road Bike", "price": 654},
-    {"id": 3, "brand": "Pinarello", "description": "Road Bike", "price": 752},
-    {"id": 4, "brand": "Scott", "description": "Road Bike", "price": 942}
+    {
+        "id": 1,
+        "brand": "Ridley",
+        "description": "Road Bike Synapse Aluminium Sora 2022 Road Bike",
+        "price": 1245
+    },
+    {
+        "id": 2,
+        "brand": "Colnago",
+        "description": "Track Bike, super fast, Attain GTC Race 2022 Road Bike ",
+        "price": 654
+    },
+    {
+        "id": 3,
+        "brand": "TREK",
+        "description": "Mountain Bike, Trek Domane AL 2 Disc Road Bike, ",
+        "price": 752
+    },
+    {
+        "id": 4,
+        "brand": "Scott",
+        "description": "Domane AL 3 Disc Road Bike",
+        "price": 942
+    }
 ]
+

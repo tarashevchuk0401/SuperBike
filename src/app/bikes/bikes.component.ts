@@ -9,12 +9,12 @@ import { BikeList } from './bikeList';
 })
 export class BikesComponent implements OnInit {
 
-  bikes: BikeList [] = [];
+  bikes: BikeList[] = [];
+  
+  constructor(private http: HttpService) { }
 
-  constructor(private http :HttpService){ }
-
-  ngOnInit(){
-    this.http.getData().subscribe((d:any) => this.bikes = d)
+  ngOnInit() {
+    this.http.getData().subscribe((d: any) => this.bikes = d)
   }
 
 
