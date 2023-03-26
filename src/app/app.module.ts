@@ -11,6 +11,8 @@ import { ContactComponent } from './contact/contact.component';
 import { UserComponent } from './user/user.component';
 import { GetContactComponent } from './get-contact/get-contact.component';
 import { FooterComponent } from './footer/footer.component';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { FooterComponent } from './footer/footer.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MaterialModule
+    MaterialModule,
+    HttpClientModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
