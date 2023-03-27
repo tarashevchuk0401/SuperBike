@@ -1,10 +1,28 @@
-nav {
-    margin-top: 15px;
-    width: 100%;
-    text-align: center;
-}
+ nav {
+     margin-top: 15px;
+     width: 100%;
+     text-align: center;
+ }
 
-button {
-    margin-right: 10px;
-    width: 18rem;
-}
+ button {
+     margin-right: 10px;
+     width: 18rem;
+ }
+
+ .wrapper {
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: spac;
+ }
+
+ .menu_wrapp{
+    min-height: 25vh;
+ }
+
+ .main_wrapp {
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+ }

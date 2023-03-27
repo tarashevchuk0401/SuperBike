@@ -1,1 +1,27 @@
 <p>contact works!</p>
+
+<form #contactForm="ngForm" (ngSubmit)="onSubmit(contactForm)">
+    <div>
+        <mat-form-field appearance="fill">
+            <mat-label>Name</mat-label>
+            <input id="name" ngModel name="name" matInput>
+        </mat-form-field>
+    </div>
+    <div>
+        <mat-form-field appearance="fill">
+            <mat-label>Enter your email</mat-label>
+            <input id="email" class="form-control" matInput placeholder="pat@example.com" [formControl]="email" ngModel
+                name="email" required>
+            <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+        </mat-form-field>
+    </div>
+    <div>
+        <mat-form-field appearance="fill">
+            <mat-label>Phone</mat-label>
+            <input id="phone" type="number" ngModel name="phone" maxlength="10" matInput required>
+        </mat-form-field>
+    </div>
+    <button type="submit" mat-stroked-button color="primary" [disabled]="contactForm.invalid"
+        (click)="onSubmit(contactForm)">Submit</button>
+</form>
+<div></div>

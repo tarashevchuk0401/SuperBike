@@ -12,6 +12,9 @@ import { UserComponent } from './user/user.component';
 import { GetContactComponent } from './get-contact/get-contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import {NgForm} from '@angular/forms';
+
 
 
 @NgModule({
@@ -29,7 +32,9 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     AppRoutingModule,
     MaterialModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
     
   ],
   providers: [],

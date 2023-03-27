@@ -1,15 +1,15 @@
-<app-logo></app-logo>
-
-<nav>
-  <button mat-stroked-button color="primary" routerLink="about" >About</button>
-  <button mat-stroked-button color="primary" routerLink="bikes">Bikes</button>
-  <button mat-stroked-button color="primary" routerLink="contact">Contact</button>
-  <button mat-stroked-button color="primary" routerLink="user">User</button>
-</nav>
-
-
-
-<router-outlet></router-outlet>
-
-<app-footer></app-footer>
-
+<div class="wrapper">
+  <div class="menu_wrapp">
+    <app-logo></app-logo>
+    <nav>
+      <button mat-stroked-button color="primary" routerLink="about">About</button>
+      <button mat-stroked-button color="primary" routerLink="bikes">Bikes</button>
+      <button mat-stroked-button color="primary" routerLink="contact">Contact</button>
+      <button mat-stroked-button color="primary" routerLink="user">User</button>
+    </nav>
+  </div>
+  <div class="main_wrapp">
+    <router-outlet></router-outlet>
+    <app-footer></app-footer>
+  </div>
+</div>
