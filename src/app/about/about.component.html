@@ -1,1 +1,12 @@
-<p>about works!</p>
+<div >
+    <ul class="wrapper">
+        <li class="card" *ngFor="let b of bikes">
+            <img src="{{b.imageUrl}}" alt="">
+            <header>
+                <div class="brand">{{b.brand}}</div>
+                <div class="price">{{b.price | currency}}</div>
+            </header>
+            <div class="description">{{b.description}}</div>
+        </li>
+    </ul>
+</div>

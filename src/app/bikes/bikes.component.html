@@ -1,19 +1,18 @@
-<p>bikes works!!!!!!!</p>
-
 <table>
     <tr>
-        <th>Id</th>
+        <th>Photo</th>
+        <!-- <th>Id</th> -->
         <th>Brand</th>
         <th>Description</th>
         <th>Price</th>
     </tr>
-    <tr *ngFor="let b of bikes">
-        <td>{{b.id}}</td>
+    <tr *ngFor="let b of bikes" class="content">
+        <td>
+            <img src="{{b.imageUrl}}" alt="BIKE_IMG">
+        </td>
+        <!-- <td>{{b.id}}</td> -->
         <td>{{b.brand}}</td>
         <td>{{b.description}}</td>
         <td>{{b.price | currency:'USD'}}</td>
     </tr>
 </table>
-
-
-  

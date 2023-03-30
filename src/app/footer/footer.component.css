@@ -4,6 +4,9 @@ footer {
     min-height: 10vh;
     display: flex;
     justify-content: center;
+    position: fixed;
+     top: 88%;
+     width: 100%;
 }
 
 .footer_nav {
@@ -19,5 +22,13 @@ footer {
 a {
     color: black;
     text-decoration: none; 
+    padding: 1rem;
+    border-radius: 3px;
+  }
+
+  a:hover{
+    background-color: aliceblue;
+    color: rgb(95, 95, 224);
+    
   }
   

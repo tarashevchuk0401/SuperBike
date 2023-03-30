@@ -3,25 +3,44 @@
         "id": 1,
         "brand": "Ridley",
         "description": "Road Bike Synapse Aluminium Sora 2022 Road Bike",
-        "price": 1245
+        "price": 1245,
+        "imageUrl": "/assets/img/1.jpeg"
+
     },
     {
         "id": 2,
         "brand": "Colnago",
         "description": "Track Bike, super fast, Attain GTC Race 2022 Road Bike ",
-        "price": 654
+        "price": 654,
+        "imageUrl": "/assets/img/2.jpeg"
     },
     {
         "id": 3,
         "brand": "TREK",
         "description": "Mountain Bike, Trek Domane AL 2 Disc Road Bike, ",
-        "price": 752
+        "price": 752,
+        "imageUrl": "/assets/img/3.jpeg"
     },
     {
         "id": 4,
         "brand": "Scott",
         "description": "Domane AL 3 Disc Road Bike",
-        "price": 942
+        "price": 942,
+        "imageUrl": "/assets/img/4.jpeg"
+    },
+    {
+        "id": 5,
+        "brand": "Specialized",
+        "description": "S-Works Road",
+        "price": 872,
+        "imageUrl": "/assets/img/5.jpeg"
+    },
+    {
+        "id": 6,
+        "brand": "Pinarello",
+        "description": "Time Trial",
+        "price": 1942,
+        "imageUrl": "/assets/img/6.jpeg"
     }
 ]
 
