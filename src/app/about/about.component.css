@@ -16,6 +16,7 @@ li {
 
 li:hover {
     background-color: rgb(231, 230, 229);
+    box-shadow: 30px 22px 39px -15px rgba(155, 161, 231, 1);
 }
 
 .brand {
@@ -41,3 +42,4 @@ li:hover {
 img {
     width: 25rem;
 }
+
