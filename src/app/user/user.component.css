@@ -1,0 +1,33 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    margin-left: 1rem;
+    
+  
+}
+
+ div {
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 50%;
+    padding: 1rem;
+    color: rgb(85, 85, 225);
+    /* border: 1px solid grey */
+}
+
+.info {
+    border: 1px solid grey;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 1rem;
+}
+
+.info:hover{
+    transition: 3.s;
+    background-color: rgb(231, 230, 229);
+    box-shadow: 30px 22px 39px -15px rgba(155, 161, 231, 1);    transition: .3s;
+}

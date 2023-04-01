@@ -15,7 +15,7 @@ export class ContactComponent {
   phone: number = 0;
 
   onSubmit(form: NgForm) {
-    console.log(form.value)
+    console.log(form.value.name)
   }
 
   getErrorMessage() {

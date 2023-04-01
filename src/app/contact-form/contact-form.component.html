@@ -1,0 +1,38 @@
+<div class="text">
+    <h3>Please write your email or phone number and get contact in 10 minutes</h3>
+</div>
+
+<form [formGroup]="myForm" (ngSubmit)="submit()">
+    <p>
+        <mat-form-field appearance="fill">
+            <mat-label>
+                <mat-icon><span class="material-symbols-outlined">
+                        person
+                    </span></mat-icon>
+                <div>Name</div>
+            </mat-label>
+            <input matInput placeholder="Name" formControlName="name">
+        </mat-form-field>
+    </p>
+    <p>
+        <mat-form-field appearance="fill">
+            <mat-label>
+                <mat-icon>email</mat-icon>
+                <div>Email</div>
+            </mat-label>
+            <input matInput placeholder="Placeholder" formControlName="email">
+        </mat-form-field>
+    </p>
+    <p>
+        <mat-form-field appearance="fill">
+            <mat-label>
+                <mat-icon><span class="material-symbols-outlined">
+                        call
+                    </span></mat-icon>
+                <div>Phone</div>
+            </mat-label>
+            <input matInput placeholder="Phone" formControlName="phone">
+        </mat-form-field>
+    </p>
+    <button mat-stroked-button color="primary" [disabled]="myForm.invalid">Submit</button>
+</form>

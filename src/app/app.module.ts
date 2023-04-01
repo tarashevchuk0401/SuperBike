@@ -14,6 +14,8 @@ import { FooterComponent } from './footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {NgForm} from '@angular/forms';
+import { ContactFormComponent } from './contact-form/contact-form.component';
+import { UserDataService } from './services/user-data.service';
 
 
 
@@ -26,7 +28,8 @@ import {NgForm} from '@angular/forms';
     ContactComponent,
     UserComponent,
     GetContactComponent,
-    FooterComponent
+    FooterComponent,
+    ContactFormComponent
   ],
   imports: [
     BrowserModule,
@@ -37,7 +40,7 @@ import {NgForm} from '@angular/forms';
     ReactiveFormsModule,
     
   ],
-  providers: [],
+  providers: [UserDataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

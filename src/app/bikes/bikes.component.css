@@ -9,11 +9,12 @@ table {
 
 tr {
     color: rgb(100, 103, 201); 
-    border-radius: 5rem;
 }
 
 .content:hover{
-    background-color: rgb(227, 226, 224);
+    transition: .3s;
+    background-color: rgb(231, 230, 229);
+    box-shadow: 30px 22px 39px -15px rgba(155, 161, 231, 1);    transition: .3s;
 }
 
 img{
